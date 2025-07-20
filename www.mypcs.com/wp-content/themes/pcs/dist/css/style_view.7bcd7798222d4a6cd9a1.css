@@ -1,0 +1,65 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #ededf2;
+    --gray-dark: #322b3a;
+    --primary: #fd3f5c;
+    --secondary: #01d39a;
+    --success: #00c98a;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #fd3f5c;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-xm: 375px;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Montserrat Alternates", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+html {
+    font-size: 62.5%
+}
+
+.wp-block-media-text {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    grid-template-columns: 59px auto
+}
+
+.wp-block-button__link:focus,
+.wp-block-button__link:hover {
+    background-color: #fd193c;
+    border-color: #fc0d31;
+    color: #fff;
+    -webkit-text-decoration: none;
+    text-decoration: none
+}
+
+.wp-block-button__link,
+.wp-block-button__link:visited {
+    background-color: #fd3f5c;
+    border: 3px solid rgba(0, 0, 0, 0);
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 40px;
+    padding: 9px 24px;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out
+}

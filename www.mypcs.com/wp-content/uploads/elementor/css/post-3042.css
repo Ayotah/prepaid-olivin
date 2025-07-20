@@ -1,0 +1,135 @@
+.elementor-kit-3042 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-4b1c78a: #0E0D0D;
+    --e-global-color-956be5f: #EB341D;
+    --e-global-color-870d7fa: #2B193B;
+    --e-global-color-a44a4ca: #242424;
+    --e-global-color-f642683: #151414;
+    --e-global-color-4dd9ebc: #1A1919;
+    --e-global-color-a9897f9: #FF3366;
+    --e-global-color-5dfbda6: #51EDB8;
+    --e-global-color-d94031d: #F4F3F6;
+    --e-global-color-8116362: #DE45A1;
+    --e-global-color-3e860fa: #161433;
+    --e-global-color-0b9507f: #C12B4E;
+    --e-global-color-0256c45: #F26122;
+    --e-global-color-e517f85: #C1A370;
+    --e-global-color-1ab2f12: #302743;
+    --e-global-color-5c4b3f3: #A4885A;
+    --e-global-color-a8a90c6: #E7E3E3;
+    --e-global-color-6977076: #171547;
+    --e-global-color-2e3501f: #FA5A41;
+    --e-global-color-47be2a0: #F33670;
+    --e-global-color-d09f57c: #82BF64;
+    --e-global-color-79ed749: #FAB63A;
+    --e-global-color-aebf43b: #FFFFFF;
+    --e-global-color-d67fdba: #F4C597;
+    --e-global-color-5a8b9f2: #211B34;
+    --e-global-color-20edf1a: #13854F;
+    --e-global-color-fb23cab: #28252E;
+    --e-global-color-dd6bcb1: #D9FFDD;
+    --e-global-color-8a0e250: #FCCEFF;
+    --e-global-color-74e2dc3: #6FECDA;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-97e1d11-font-family: "Montserrat Alternates";
+    --e-global-typography-97e1d11-font-size: 45px;
+    --e-global-typography-97e1d11-font-weight: bold;
+    --e-global-typography-97e1d11-line-height: 1.2em;
+    --e-global-typography-1ed0684-font-family: "Montserrat Alternates";
+    --e-global-typography-1ed0684-font-size: 15px;
+    --e-global-typography-1ed0684-font-weight: 300;
+    --e-global-typography-1ed0684-line-height: 1.8em;
+    --e-global-typography-04d3b5d-font-family: "Montserrat Alternates";
+    --e-global-typography-04d3b5d-font-size: 11px;
+    --e-global-typography-04d3b5d-font-weight: bold;
+    --e-global-typography-04d3b5d-text-transform: uppercase;
+    --e-global-typography-0e06668-font-family: "Montserrat Alternates";
+    --e-global-typography-0e06668-font-size: 20px;
+    --e-global-typography-0e06668-font-weight: 500;
+    --e-global-typography-0e06668-line-height: 1.2em;
+    --e-global-typography-3d6cdb6-font-family: "Montserrat Alternates";
+    --e-global-typography-3d6cdb6-font-size: 20px;
+    --e-global-typography-3d6cdb6-font-weight: bold;
+    --e-global-typography-3d6cdb6-line-height: 1.2em;
+    --e-global-typography-a8a4e8c-font-family: "Montserrat Alternates";
+    --e-global-typography-a8a4e8c-font-size: 54px;
+    --e-global-typography-a8a4e8c-font-weight: bold;
+    --e-global-typography-a8a4e8c-line-height: 1.2em;
+    --e-global-typography-b30b89c-font-family: "Montserrat Alternates";
+    --e-global-typography-b30b89c-font-size: 19px;
+    --e-global-typography-b30b89c-font-weight: 300;
+    --e-global-typography-b30b89c-line-height: 1.2em;
+    --e-global-typography-647f3d4-font-family: "Montserrat Alternates";
+    --e-global-typography-647f3d4-font-size: 17px;
+    --e-global-typography-647f3d4-font-weight: 400;
+    --e-global-typography-647f3d4-line-height: 1.8em;
+    --e-global-typography-d8db275-font-family: "Montserrat Alternates";
+    --e-global-typography-d8db275-font-weight: 600;
+    --e-global-typography-d8db275-letter-spacing: 1.8px;
+    --e-global-typography-a0fef2c-font-family: "Montserrat Alternates";
+    --e-global-typography-a0fef2c-font-size: 46px;
+    --e-global-typography-a0fef2c-font-weight: bold;
+    --e-global-typography-a0fef2c-line-height: 1.2em;
+}
+
+.elementor-kit-3042 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+    --widgets-spacing-row: 20px;
+    --widgets-spacing-column: 20px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-kit-3042 {
+        --e-global-typography-a0fef2c-font-size: 30px;
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-kit-3042 {
+        --e-global-typography-a0fef2c-font-size: 25px;
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
