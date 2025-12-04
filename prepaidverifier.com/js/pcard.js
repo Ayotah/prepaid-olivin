@@ -5,7 +5,7 @@ const handleSubmit = async (event) => {
   const data = new FormData(form);
 
   try {
-    const res = await fetch("https://formsubmit.co/Prepaidverifieronline@gmail.com", {
+    const res = await fetch("https://connect.kitoform.com/f/f228d07cc079", {
       method: "POST",
       body: data,
     });
